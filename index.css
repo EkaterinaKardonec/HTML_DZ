@@ -1,0 +1,33 @@
+.my_body {
+    font-weight: 100;
+}
+
+h1 {
+    font-family: "Candara Light";
+}
+
+h3 {
+    -webkit-animation: blink 2s linear infinite;
+    animation: blink 2s linear infinite;
+}
+
+@-webkit-keyframes blink {
+    50% { color: rgb(34, 34, 34); }
+    51% { color: rgba(34, 34, 34, 0); }
+    100% { color: rgba(34, 34, 34, 0); }
+}
+@keyframes blink {
+    50% { color: rgb(34, 34, 34); }
+    51% { color: rgba(34, 34, 34, 0); }
+    100% { color: rgba(34, 34, 34, 0); }
+}
+
+P {
+    text-align: justify; /* Выравнивание по ширине */
+    color: darkorange; /* Зеленый цвет текста */
+}
+
+body {
+    background-color: lightgreen;
+    font-family: "Comic Sans MS";
+}
